@@ -1,6 +1,6 @@
 <?php
 
-namespace NurAzli\EconomyHb;
+namespace EconomyHb;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
@@ -10,7 +10,7 @@ class EconomyHb extends PluginBase {
     /** @var Config */
     private $config;
 
-    public function onEnable() {
+    public function onEnable():void {
         $this->getLogger()->info("EconomyHb has been enabled!");
 
         // Pastikan direktori plugin_data/NurAzli/EconomyHb/ ada
