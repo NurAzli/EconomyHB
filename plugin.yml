@@ -1,5 +1,5 @@
 name: EconomyHb
 api: 5.0.0
 version: 1.0.0
-main: EconomyHb\Main
+main: EconomyHb\EconomyHb
 authors: [NurAzliYT, MauslaGames, NurAzli]
