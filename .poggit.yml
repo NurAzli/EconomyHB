@@ -5,4 +5,5 @@ branches:
 projects:
   EconomyHB:
     path: ""
+    icon: icon.png
 ...
