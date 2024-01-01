@@ -1,0 +1,22 @@
+# PocketMine Plugin - Ignore generated files
+bin/
+build/
+.phar
+
+# PocketMine Plugin - Ignore PocketMine server files
+plugins/
+PocketMine-MP.phar
+
+# IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# PocketMine Plugin - Ignore Composer files
+vendor/
+composer.phar
+composer.lock
+
+# PocketMine Plugin - Ignore server logs
+logs/
