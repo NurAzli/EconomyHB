@@ -8,7 +8,7 @@ EconomyHb serves as an additional plugin managing player economies for the JobUI
 - Accurately tracks player economies.
 
 ## Usage
-- No direct interaction required; operates as part of JobUIExample.
+- No direct interaction required; operates as part of JobUI.
 
 ---
 
