@@ -6,7 +6,7 @@ use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase {
 
-    public function onEnable() {
+    public function onEnable(): void {
         $this->saveDefaultConfig(); // Saves default config if config.yml doesn't exist.
         $this->getLogger()->info("EconomyPlugin has been enabled!");
     }
