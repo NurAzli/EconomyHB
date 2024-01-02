@@ -1,7 +1,7 @@
 name: EconomyHb
 api: 5.0.0
 version: 1.0.0
-main: economyhb\EconomyHb
+main: NurAzli\Plugin\Stable\EconomyHb
 authors: [NurAzliYT, MauslaGames, NurAzli]
 
 commands:
