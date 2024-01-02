@@ -1,5 +1,16 @@
 name: EconomyHb
 api: 5.0.0
 version: 1.0.0
-main: EconomyHb\EconomyHb
+main: economyhb\EconomyHb
 authors: [NurAzliYT, MauslaGames, NurAzli]
+
+commands:
+  economy:
+    description: Manage player economy
+    usage: /economy <add|subtract|check> [amount] [player]
+    permission: economyhb.command.economy
+
+permissions:
+  economyhb.command.economy:
+    description: Allows players to use /economy command
+    default: op
