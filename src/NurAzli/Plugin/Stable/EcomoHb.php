@@ -8,7 +8,7 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
 
-class EconomyHb extends PluginBase {
+class EcomoHb extends PluginBase {
 
     /** @var Config */
     private $config;
