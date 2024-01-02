@@ -23,7 +23,7 @@ class EcomoHb extends PluginBase {
         $this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML);
 
         // Register command
-        $this->getServer()->getCommandMap()->register("economyhb", new EconomyCommand($this));
+        $this->getServer()->getCommandMap()->register("economyhb", new EconomyCommandHandler($this));
     }
 
     public function giveSalary(Player $player, $job, $amount) {
