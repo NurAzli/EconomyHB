@@ -1,6 +1,6 @@
 <?php
 
-namespace economyhb;
+namespace NurAzli\Plugin\Stable;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
