@@ -67,3 +67,4 @@ class EconomyCommandHandler extends Command {
             return false;
         }
               }
+}
