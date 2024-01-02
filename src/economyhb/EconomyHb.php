@@ -54,7 +54,7 @@ class EconomyHb extends PluginBase {
     }
 }
 
-class EconomyCommand extends Command {
+class EconomyCommandHandler extends Command {
 
     private $plugin;
 
