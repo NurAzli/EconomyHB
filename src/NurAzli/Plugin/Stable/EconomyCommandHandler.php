@@ -5,6 +5,8 @@ namespace NurAzli\Plugin\Stable;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
+use pocketmine\plugin\Plugin;
+
 class EconomyCommandHandler extends Command {
 
     private $plugin;
